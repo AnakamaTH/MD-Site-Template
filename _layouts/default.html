@@ -15,6 +15,7 @@
     }
 
     html, body {
+	  align-items: center;
       margin: 0;
       padding: 0;
       background: var(--bg);
@@ -31,6 +32,7 @@
     }
 
     header {
+	  align-items: center;
       margin-bottom: 2rem;
       border-bottom: 1px solid var(--border);
       padding-bottom: 1rem;
@@ -70,6 +72,7 @@
     }
 
     footer {
+	  align-items: center;
       margin-top: 4rem;
       padding-top: 1rem;
       border-top: 1px solid var(--border);
@@ -81,13 +84,6 @@
 
 <body>
   <div class="container">
-    <header>
-      <h1>{{ page.title }}</h1>
-      {% if page.description %}
-        <p>{{ page.description }}</p>
-      {% endif %}
-    </header>
-
     <main>
       {{ content }}
     </main>
