@@ -1,6 +1,6 @@
 ---
 permalink: /index.html
-layout: page
+layout: default
 description: "This is an example .md site."
 title: "Site"
 
