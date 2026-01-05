@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    html, body {
+	    align-items: center;
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: space-between;
+      margin-left: auto;    
+      margin-right: auto;
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem;
+    }
+
+    header {
+      align-items: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    main h2 {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 0.6rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin: 0.5rem 0;
+    }
+
+    code {
+      background: #f3f4f6;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+      font-size: 0.9em;
+   	}
+  </style>
+</head>
+<body>
+  <div class="container">
+  <header>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}
+        <p>{{ page.description }}</p>
+      {% endif %}
+    </header> 
+    <main>
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
