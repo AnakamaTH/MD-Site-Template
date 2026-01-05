@@ -9,6 +9,7 @@ contact_header: "Contact"
 contact_email: "Email"
 site_copyright: "Copyright:"
 site_copyright_name: "Your Name"
+site_title: Site Name
 ---
 This is an example markdown site.
 To add text to this page, modify index.md.
