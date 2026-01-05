@@ -1,0 +1,8 @@
+exclude:
+  - cname
+  - README.md
+
+sass:
+  style: :compressed
+
+theme: jekyll-theme-primer
