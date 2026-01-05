@@ -72,7 +72,7 @@
     }
 
     footer {
-	  align-items: center;
+	    align-items: center;
       margin-top: 4rem;
       padding-top: 1rem;
       border-top: 1px solid var(--border);
@@ -81,14 +81,32 @@
     }
   </style>
 </head>
-
 <body>
   <div class="container">
+  <header>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}
+        <p>{{ page.description }}</p>
+      {% endif %}
+    </header> 
     <main>
       {{ content }}
     </main>
 
     <footer>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 2em; margin-left: auto; margin-right: auto; ">
+          <div style="flex: 1; min-width: 200px; margin: 20px;">
+              <h4 style="margin-top: 0; margin-bottom: 10px; font-size: 16px; ">
+                  {{page.contact_header}}
+              </h4>
+              <ul style="list-style: none; padding: 0; margin: 0;">
+                  <li style="margin-bottom: 5px;">{{page.contact_email}}: <a href="mailto:youremail@yourprovider.com" style="text-decoration: none;">youremail@yourprovider.com</a></li>
+              </ul>
+          </div>
+          <div style="flex: 3; min-width: 300px; margin: 20px;">
+                  {{page.site_copyright | markdownify | remove: '<p>' | remove: '</p>' | strip }} <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>
+              </p>
+          </div> 
       © {{ site.time | date: "%Y" }} Your Name
     </footer>
   </div>
