@@ -12,5 +12,7 @@ site_copyright_name: "Your Name"
 site_title: Site Name
 ---
 This is an example markdown site.
+
 To add text to this page, modify index.md.
+
 To change your license or email, modify _layouts/default.html
