@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
@@ -104,10 +104,9 @@
               </ul>
           </div>
           <div style="flex: 3; min-width: 300px; margin: 20px;">
-                  {{page.site_copyright | markdownify | remove: '<p>' | remove: '</p>' | strip }} <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>
+                  {{page.site_copyright | page.site_copyright_name - | markdownify | remove: '<p>' | remove: '</p>' | strip }} <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>
               </p>
           </div> 
-      © {{ site.time | date: "%Y" }} Your Name
     </footer>
   </div>
 </body>
