@@ -1,6 +1,6 @@
 ---
 permalink: /index.html
-layout: default
+layout: page
 description: "What this page is about."
 title: "Main Page"
 
