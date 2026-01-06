@@ -15,14 +15,12 @@
     }
 
     html, body {
-	    align-items: center;
-      display: flex; 
-      flex-wrap: wrap; 
-      justify-content: space-between;
-      margin-left: auto;    
-      margin-right: auto;
+      height: 100%;
       margin: 0;
       padding: 0;
+    }
+
+    body {
       background: var(--bg);
       color: var(--text);
       font-family: system-ui, -apple-system, BlinkMacSystemFont,
@@ -30,14 +28,20 @@
       line-height: 1.7;
     }
 
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
     .container {
       max-width: 720px;
       margin: 0 auto;
       padding: 2.5rem 1.25rem;
+      flex: 1;
     }
 
     header {
-      align-items: center;
       margin-bottom: 2rem;
       border-bottom: 1px solid var(--border);
       padding-bottom: 1rem;
@@ -74,20 +78,24 @@
       padding: 0.2em 0.4em;
       border-radius: 4px;
       font-size: 0.9em;
-   	}
+    }
+
+    @media (max-width: 600px) {
+      .footer-right {
+        text-align: left;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <div class="container">
-  <header>
-      <h1>{{ page.title }}</h1>
-      {% if page.description %}
-        <p>{{ page.description }}</p>
-      {% endif %}
-    </header> 
-    <main>
-      {{ content }}
-    </main>
-  </div>
+  <div class="page">
+    <div class="container">
+      <header>
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}
+          <p>{{ page.description }}</p>
+        {% endif %}
+      </header>
 </body>
 </html>
