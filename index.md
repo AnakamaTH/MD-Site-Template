@@ -14,4 +14,6 @@ This is an example markdown site.
 
 To add text to this page, modify index.md.
 
+To add other pages, for example if you are adding a pane called "help", duplicate this page as "help.md" and change the permalink to /help.html.
+
 To change your license or email, modify _layouts/default.html
