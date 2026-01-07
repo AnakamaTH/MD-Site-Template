@@ -3,6 +3,8 @@ Simple template for creating a markdown site.
 
 Useful for making documentation and easy to modify.
 
+Feel free to fork this, don't forget to remove CNAME.
+
 ## How to Use
 To add text to the main page, modify index.md.
 
