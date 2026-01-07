@@ -1,9 +1,8 @@
 ---
 permalink: /index.html
 layout: page
-description: "What this page is about."
-title: "Main Page"
-title_site: "Site Name"
+description: "Example Site."
+title: "My Site"
 
 # sections for the footer text
 contact_header: "Contact"
