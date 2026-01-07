@@ -1,5 +1,5 @@
 exclude:
-  - cname
+  - CNAME
   - README.md
 
 sass:
