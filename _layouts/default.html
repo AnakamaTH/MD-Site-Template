@@ -147,18 +147,6 @@
     <footer>
       <div class="footer-inner">
         <div class="footer-col">
-          <h4>{{ page.contact_header }}</h4>
-          <ul>
-            <li>
-              {{ page.contact_email }}:
-              <a href="mailto:youremail@yourprovider.com">
-                youremail@yourprovider.com
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-col footer-right">
           {{ page.site_copyright
             | markdownify
             | remove: '<p>'
