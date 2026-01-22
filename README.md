@@ -10,4 +10,4 @@ To add text to the main page, modify index.md.
 
 To add other pages, for example if you are adding a pane called "help", duplicate index.md as "help.md" and change the permalink to /help.html.
 
-To change your license or email, modify ''_layouts/default.html''
+To change your license or email, modify lines 147-160 in ''_layouts/default.html''
