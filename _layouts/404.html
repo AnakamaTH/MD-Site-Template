@@ -4,97 +4,15 @@
   <meta charset="UTF-8">
   <title>404</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <style>
-    :root {
-      --bg: #ffffff;
-      --text: #1f2937;
-      --muted: #6b7280;
-      --border: #e5e7eb;
-      --accent: #2563eb;
-    }
-
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont,
-                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.7;
-    }
-
-    .page {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 2.5rem 1.25rem;
-      flex: 1;
-    }
-
-    header {
-      margin-bottom: 2rem;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 1rem;
-    }
-
-    header h1 {
-      font-size: 2rem;
-      margin: 0;
-    }
-
-    header p {
-      margin: 0.5rem 0 0;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    main h2 {
-      margin-top: 2rem;
-      font-size: 1.4rem;
-      border-left: 4px solid var(--accent);
-      padding-left: 0.6rem;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-    }
-
-    li {
-      margin: 0.5rem 0;
-    }
-
-    code {
-      background: #f3f4f6;
-      padding: 0.2em 0.4em;
-      border-radius: 4px;
-      font-size: 0.9em;
-    }
-
-    @media (max-width: 600px) {
-      .footer-right {
-        text-align: left;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="page">
     <div class="container">
       <header>
-        <h1>{{ page.title }}</h1>
-        {% if page.description %}
-          <p>{{ page.description }}</p>
+        <h1>404</h1>
+          <p>Page not found.</p>
         {% endif %}
       </header>
 </body>
