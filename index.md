@@ -1,9 +1,9 @@
 ---
 permalink: /index.html
 layout: page
+favicon: favicon.png
 description: "Example Site."
 title: "My Site"
-# Sections for the footer text
-site_copyright: "Copyright:"
+copyright: "CC0 1.0 Universal"
 ---
 {{ content }}
