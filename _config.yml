@@ -1,7 +1,3 @@
-title: Your Site Title
-description: Description of your site.
-url: https://yourusername.github.io/yourreponame
-baseurl: ""
 theme: jekyll-theme-primer
 exclude:
   - CNAME
