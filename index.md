@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /index.html
 layout: default
 favicon: assets/favicon.png
 description: "Description."
