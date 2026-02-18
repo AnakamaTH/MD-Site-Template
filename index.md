@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: page
+layout: default
 favicon: assets/favicon.png
 description: "Description."
 title: "My Site"
