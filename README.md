@@ -1,6 +1,4 @@
 # Markdown Site Template
-[![BUILD](https://github.com/AnakamaTH/Markdown-Site-Template/actions/workflows/ci.yml/badge.svg)](https://github.com/AnakamaTH/Markdown-Site-Template/actions/workflows/ci.yml)
-
 Simple template for creating a markdown site.
 
 Useful for making documentation and easy to modify.
