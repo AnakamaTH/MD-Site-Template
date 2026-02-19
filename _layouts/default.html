@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="{{ page.favicon }}" type="image/png" />
   <meta property="og:type" content="article" />
@@ -31,7 +31,7 @@
     <footer>
       <div class="footer-inner">
         <div class="footer-col">
-          &copy; {{ page.copyright | default: "CC0 1.0 Universal" }} 
+          {{ page.copyright | default: "CC0 1.0 Universal" }} 
         </div>
       </div>
     </footer>

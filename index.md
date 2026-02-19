@@ -1,9 +1,9 @@
 ---
 permalink: /index.html
-layout: page
+layout: default
 favicon: assets/favicon.png
 description: "Description."
 title: "My Site"
-copyright: "CC0 1.0 Universal"	
+copyright: "&copy; Name, Year, Copyright."	
 ---
-Content.
+Your text goes here. So as an example, I'll just talk about a random topic.
