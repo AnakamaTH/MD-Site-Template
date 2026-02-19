@@ -4,7 +4,7 @@ layout: default
 favicon: assets/favicon.png
 description: "Description."
 title: "My Site"
-background-color: "#ffffff"
+bg: "#ffffff"
 footer: "&copy; Name, Year, Copyright."
 ---
 Your text goes here. So as an example, I'll just paste a random copypasta.
