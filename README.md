@@ -5,6 +5,8 @@ Useful for making documentation and easy to modify.
 
 Feel free to use this template, just don't worry about previous commits.
 
+[Visit the demo site.](http://github.anakama.xyz/Markdown-Site-Template/)
+
 ## How to Use
 To add text to the main page, modify index.md.
 
