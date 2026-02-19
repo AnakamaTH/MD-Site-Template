@@ -10,7 +10,16 @@
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{{ page.description | default: site.description }}" />
   
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <style>
+:root {
+  --bg: {{ page.background-color | default: "#ffffff;" }} 
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #2563eb;
+}
+ </style>
 </head>
 
 <body>
@@ -41,7 +50,7 @@
     <footer>
       <div class="footer-inner">
         <div class="footer-col">
-          &copy; {{ page.copyright | default: "CC0 1.0 Universal" }} 
+          {{ page.footer | default: "CC0 1.0 Universal" }} 
         </div>
       </div>
     </footer>
